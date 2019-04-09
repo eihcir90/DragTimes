@@ -19,6 +19,6 @@
 * Drillthrough
 * Interactive sorting
 * DrillDown
-* Groups
+* Grouping
 
 
