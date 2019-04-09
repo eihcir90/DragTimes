@@ -65,6 +65,8 @@
     <Report Include="Top25DragTimesQuarterMileMPH.rdl" />
     <Report Include="Top5EighthMileETMake.rdl" />
     <Report Include="Top5QuarterMileETMake.rdl" />
+    <Report Include="TopXQuarterMileETForYMake.rdl" />
+    <Report Include="TopXQuarterMileETForYMakeAndZModel.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
