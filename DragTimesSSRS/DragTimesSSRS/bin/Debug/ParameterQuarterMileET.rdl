@@ -601,10 +601,10 @@ FROM
                   <Width>1in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1in</Width>
+                  <Width>1.30208in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1in</Width>
+                  <Width>1.33333in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -696,6 +696,9 @@ FROM
                       <CellContents>
                         <Textbox Name="Textbox20">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!Car_Model.Value</SortExpression>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -731,6 +734,9 @@ FROM
                       <CellContents>
                         <Textbox Name="Textbox22">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!ID1_4_Mile_ET.Value</SortExpression>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -766,6 +772,9 @@ FROM
                       <CellContents>
                         <Textbox Name="Textbox24">
                           <CanGrow>true</CanGrow>
+                          <UserSort>
+                            <SortExpression>=Fields!ID1_4_Mile_MPH.Value</SortExpression>
+                          </UserSort>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -956,7 +965,7 @@ FROM
             </TablixRowHierarchy>
             <DataSetName>DataSet1</DataSetName>
             <Height>0.75in</Height>
-            <Width>4in</Width>
+            <Width>4.63542in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
