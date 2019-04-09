@@ -1,4 +1,3 @@
-# Drag Times
 ## Web Scrapping
 #### Libraries Used
 * Python Standard Library (urllib.request, time)
