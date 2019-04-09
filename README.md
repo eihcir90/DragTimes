@@ -13,6 +13,11 @@
 * Loaded csv file to tables in database.
 * Sort, multicast, lookup, etc
 ## T-SQL with SSMS
+* Create tables
+  * Primary key
+  * Foreign key
+* Queries
+* Stored Procedures
 ## Reporting with SSRS
 * Basic table
 * Persistent header
