@@ -10,6 +10,14 @@
 * tqdm
   * Used to check the status of the web scrapping.
 ## ETL with SSIS
-* Loaded csv file to tables in database. Used sort, multicast and lookup.
+* Loaded csv file to tables in database.
+* Sort, multicast, lookup, etc
 ## T-SQL with SSMS
 ## Reporting with SSRS
+* Basic table
+* Persistent header
+* Drillthrough
+* Interactive sorting
+* DrillDown
+
+
