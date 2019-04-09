@@ -20,5 +20,8 @@
 * Interactive sorting
 * DrillDown
 * Grouping
+* Parameters
+* Expressions (Concat strings and parameters)
+* Stored Procedures as dataset
 
 
