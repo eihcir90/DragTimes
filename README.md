@@ -20,7 +20,7 @@
 * Interactive sorting
 * DrillDown
 * Grouping
-* Parameters
+* Parameters (Drop down, text, int)
 * Expressions (Concat strings and parameters)
 * Stored Procedures as dataset
 
