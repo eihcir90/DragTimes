@@ -1,6 +1,4 @@
-# DragTimes
-<<<<<<< HEAD
-=======
+# Drag Times
 ## Web Scrapping
 #### Libraries Used
 * Python Standard Library (urllib.request, time)
@@ -15,4 +13,3 @@
 ## ETL with SSIS
 ## T-SQL with SSMS
 ## Reporting with SSRS
->>>>>>> 52a04b71035614b455d340132abe9ba8da6f3c13
