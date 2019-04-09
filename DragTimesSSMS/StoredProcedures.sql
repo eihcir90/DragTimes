@@ -1,6 +1,10 @@
 USE DragTimeWarehouse
 GO
 
+/* 
+	Store procedure that returns the top X quarter mile times for a provided make. X is a parameter for number
+	of records. 
+*/
 CREATE PROCEDURE spTopXQuarterMileETForYMake(@makeName NVARCHAR(255), @x INT)
 AS
 BEGIN
@@ -25,6 +29,10 @@ BEGIN
 END
 GO
 
+/* 
+	Store procedure that returns the top X quarter mile times for a provided make and a provided model. X is a parameter for number
+	of records. 
+*/
 CREATE PROCEDURE spTopXQuarterMileETForYMakeAndZModel(@makeName NVARCHAR(255), @modelName NVARCHAR(255),@x INT)
 AS
 BEGIN
