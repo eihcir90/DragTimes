@@ -1,9 +1,8 @@
 ## Web Scrapping
 #### Libraries Used
 * Python Standard Library (urllib.request, time)
-  * Used sleep function in time to not hit the server too fast.
   * Used urllib.request to request the html file from server.
-* BeautifulSoap
+* BeautifulSoup
   * Used to parse HTML file.
 * Pandas
   * Used to make a dataframe and export to csv file.
