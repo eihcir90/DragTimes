@@ -65,6 +65,7 @@
     <Report Include="Top25DragTimesQuarterMileMPH.rdl" />
     <Report Include="Top5EighthMileETMake.rdl" />
     <Report Include="Top5QuarterMileETMake.rdl" />
+    <Report Include="TopQuarterMilebyWeight.rdl" />
     <Report Include="TopXQuarterMileETForYMake.rdl" />
     <Report Include="TopXQuarterMileETForYMakeAndZModel.rdl" />
   </ItemGroup>

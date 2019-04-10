@@ -63,3 +63,30 @@ BEGIN
 	WHERE CarMake.makeName = @makeName AND CarModel.modelName = @modelName
 	ORDER BY PerformanceData.[1 4 Mile ET]
 END
+
+/* 
+	Store procedure that returns the top quarter mile times for a range of weight. 
+*/
+CREATE PROCEDURE spTopQuarterMilebyWeight(@low INT, @high INT)
+AS
+BEGIN
+	SET NOCOUNT ON;
+	SELECT
+	  CarMake.makeName
+	  ,CarModel.modelName
+	  ,CarNDriverData.[Weight with driver (lbs)]
+	  ,PerformanceData.[1 4 Mile ET]
+	  ,PerformanceData.[1 4 Mile MPH]
+	FROM
+	  CarId
+	  INNER JOIN CarNDriverData
+		ON CarId.carId = CarNDriverData.carId
+	  INNER JOIN PerformanceData
+		ON CarId.carId = PerformanceData.carId
+	  INNER JOIN CarMake
+		ON CarId.makeId = CarMake.makeId
+	  INNER JOIN CarModel
+		ON CarId.modelId = CarModel.modelId AND CarMake.makeId = CarModel.makeId
+	WHERE [Weight with driver (lbs)] IS NOT NULL AND ([Weight with driver (lbs)] BETWEEN @low AND @high)
+END
+GO
